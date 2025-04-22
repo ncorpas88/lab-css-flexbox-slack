@@ -8,3 +8,60 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@media (max-width: 768px){
+    nav{
+        display: flex;
+        background-color: purple;
+        width: 150%;
+      }
+
+    div img{
+        display: flex;
+        width: 40%;
+        margin-top: 3%;
+        margin-left: 3%;
+    }
+
+
+    /*botones busqueda  y menu*/
+    nav div button {
+        background-color: purple;
+        border: none;
+        margin-right: 8%;
+
+    }
+
+    nav div button img {
+        image-rendering: auto; 
+        width: 100%;           
+        height: auto;
+        display: block;     
+        background-color: purple;   
+      }
+
+    
+    nav div  {
+        display: flex;
+        width: 50%;
+        
+    }
+    nav div ul {
+        display: none;
+    }
+
+    
+
+    /* seccion header*/
+
+    header {
+        background-color: purple;
+        
+    }
+
+    h1 {
+        color: white;
+    }
+
+
+}
